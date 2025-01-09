@@ -1,4 +1,9 @@
-# Fine_Tuning_GPT2
+# Fine-tuned GPT-2 on Reddit Short Stories
+
+# Project Overview
+
+The primary goal of this project was to fine-tune a GPT-2 model on a dataset of Reddit short stories. By training GPT-2 on this specific text, the project aimed to generate coherent and contextually relevant short-story outputs. The end result was an interactive demo, showcased on Hugging Face Spaces, where users can provide prompts and see generated stories.
+
 
 ## 1. Cleaning the Short Stories File
 <img width="646" alt="Screenshot 2025-01-09 at 10 16 30 PM" src="https://github.com/user-attachments/assets/bb5e333e-d1b7-4e27-be72-f27f5dac982c" />
@@ -60,11 +65,10 @@ d) warmup_steps=500 sets a learning rate warmup period.
 e) weight_decay=0.01 applies a small weight regularization to avoid overfitting.
 
 
-### 4.2 
+### 4.2 Initializing the Trainer
 
 <img width="364" alt="Screenshot 2025-01-09 at 11 32 41 PM" src="https://github.com/user-attachments/assets/512389f7-88bc-4e3a-b221-36b1c23ce52a" />
 
-Initializing the Trainer
 
 Trainer is a high-level API from Hugging Face which handles training loops, evaluation, logging, checkpoints, etc.
 
