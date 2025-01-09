@@ -95,5 +95,13 @@ d) num_return_sequences=1 returns one generated text sample.
 
 <img width="1043" alt="Screenshot 2025-01-09 at 11 29 16 PM" src="https://github.com/user-attachments/assets/48b7af25-e985-4a29-ae60-520200f30bd0" />
 
+### 6. Conclusions
 
+Validation losses around 2.28–2.29 indicate the model has learned the dataset but may not be fully optimized. Further tuning (longer training, different hyperparameters, or more data) could improve performance. The model outputs coherent text. Some randomness or tangential content is expected, as GPT-2 is a generative model.
+Adjusting parameters like temperature, top_k, or top_p can shape output style and coherence.
+
+### 7. Project Showcase
+
+This fine-tuning work has been showcased on [Hugging Face Spaces](https://huggingface.co/spaces/a1zubair/fine_tune_gpt2_short_story)
+allowing anyone to interact with and test the model directly.
 
